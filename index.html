@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+  </head>
+  <body class="bg-black text-white">
+    <nav
+      class="flex justify-between px-12 py-3 w-full font-poppins font-normal uppercase text-white/75 sticky top-0 z-50 bg-black/90 backdrop-blur-sm"
+    >
+      <img src="./assets/logo/logo.svg" alt="logo" class="h-7" />
+    </nav>
+    <div class="h-full mb-10 font-poppins text-white select-none">
+      <main class="flex flex-col gap-16">
+        <!-- {/* Hero section */} -->
+        <div class="mt-[100px]">
+          <div class="h-full flex justify-center gap-28 items-center mx-20">
+            <div class="w-[600px] flex flex-col gap-7">
+              <div class="text-6xl font-georgia">
+                <h1 class=" ">Welcome to</h1>
+                <h1>
+                  <span class="font-bold">The Proven </span>
+                  <span class="text-[#F6BD0C] font-bold">Club</span>
+                </h1>
+              </div>
+              <div>
+                <p>
+                  Once you complete S.A.I.&apos;s challenge, we make it
+                  <span class="text-[#F6BD0C]">
+                    our job to get you a job! <br />
+                  </span>
+                  We set up your discussions with our handpicked startups. We
+                  ensure a shorter interview process and no further take-home
+                  assignments.
+                </p>
+              </div>
+              <div>
+                <p>
+                  Get a job,
+                  <span class="text-[#F6BD0C]"> or get a feedback!</span>
+                </p>
+              </div>
+              <div>
+                <button class="bg-[#F6BD0C] px-5 py-3 text-black rounded-full">
+                  Take Challenge
+                </button>
+              </div>
+            </div>
+
+            <div class="relative flex items-center justify-center">
+              <div class="absolute">
+                <img class="h-[28rem]" src="./assets/home/laptop.svg" alt="" />
+              </div>
+              <div>
+                <img class="h-[20rem]" src="./assets/home/blob.svg" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- {/* Card section */} -->
+        <div class="w-full my-5 flex justify-center">
+          <div class="mx-20 flex flex-row items-center h-[33rem]">
+            <!-- {/* 1st card */} -->
+            <div
+              class="h-[28rem] text-white p-10 w-[20rem] rounded-[20px] bg-[#662F2F] relative overflow-hidden"
+            >
+              <div class="w-full flex gap-2 items-center z-10">
+                <img src="./assets/checks/check3.svg" alt="check3" />
+                <div>Super-easy & fast onboarding</div>
+              </div>
+              <div class="w-full flex justify-start mt-5 ml-4 z-10">
+                <ul class="z-10 list-disc">
+                  <li>Sign up</li>
+                  <li>Upload Resume</li>
+                  <li>Choose Challenge</li>
+                  <li>Build Profile</li>
+                </ul>
+              </div>
+              <div class="relative mt-5 flex items-center justify-center z-10">
+                <div class="absolute flex items-center justify-center">
+                  <img
+                    class="h-[12rem]"
+                    src="./assets/home/slackers/guy1.svg"
+                    alt="guy1"
+                  />
+                </div>
+                <div>
+                  <img
+                    src="./assets/home/slackers/white.svg"
+                    class="h-[12rem]"
+                    alt="white"
+                  />
+                </div>
+              </div>
+              <svg
+                class="z-0 absolute bottom-[-52.3px] left-0 w-full"
+                width="426"
+                height="311"
+                viewBox="0 0 426 311"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1430 340H0V183.73C0 183.73 258.934 -46.5917 504.323 8.51847C683.208 48.693 819.802 195.998 1080.77 183.73C1271.94 174.743 1430 8.51847 1430 8.51847V340Z"
+                  fill="#B78282"
+                />
+              </svg>
+            </div>
+            <!-- {/* 2nd card */} -->
+            <div
+              class="h-[479px] text-white w-[25rem] p-10 rounded-[20px] bg-[#5D4037] relative overflow-hidden"
+            >
+              <div class="w-full flex gap-2 items-center z-10">
+                <div>
+                  <img src="./assets/checks/check2.svg" alt="check2" />
+                </div>
+                <div>Interesting AI-led Challenges</div>
+              </div>
+              <div class="w-full flex justify-start mt-5 ml-4 z-10">
+                <ul class="z-10 list-disc">
+                  <li>Timed coding challenge</li>
+                  <li>S.A.I.&apos;s interview</li>
+                  <li>Community invite or Feedback to improve</li>
+                </ul>
+              </div>
+              <div class="relative flex items-center mt-5 justify-center z-10">
+                <div class="absolute flex items-center justify-center">
+                  <img
+                    class="h-[14rem]"
+                    src="./assets/home/slackers/guy2.svg"
+                    alt="guy2"
+                  />
+                </div>
+                <div class="">
+                  <img
+                    src="./assets/home/slackers/white.svg"
+                    class="w-[15rem]"
+                    alt="white"
+                  />
+                </div>
+              </div>
+              <svg
+                class="z-0 absolute bottom-[-52px] left-0 w-full"
+                width="578"
+                height="340"
+                viewBox="0 0 578 340"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M1004 340H-426V183.73C-426 183.73 -167.066 -46.5917 78.3231 8.51847C257.208 48.693 393.802 195.998 654.77 183.73C845.941 174.743 1004 8.51847 1004 8.51847V340Z"
+                  fill="#F6BD0C"
+                />
+              </svg>
+            </div>
+            <!-- {/* 3rd card */} -->
+            <div
+              class="h-[28rem] text-white w-[20rem] rounded-[20px] p-10 bg-[#263D60] relative overflow-hidden"
+            >
+              <div class="w-full flex gap-2 items-center">
+                <div>
+                  <img src="./assets/checks/check1.svg" alt="check1" />
+                </div>
+                <div>More startups, less Interviews</div>
+              </div>
+              <div class="w-full flex justify-start mt-5 ml-4">
+                <ul class="z-10 list-disc">
+                  <li>Hot startups</li>
+                  <li>No take-home assignments</li>
+                  <li>Crack interviews</li>
+                  <li>Beer on us!</li>
+                </ul>
+              </div>
+              <div class="relative flex items-center mt-4 justify-center z-10">
+                <div class="absolute flex items-center justify-center">
+                  <img
+                    class="h-[12rem]"
+                    src="./assets/home/slackers/gal1.svg"
+                    alt="gal1"
+                  />
+                </div>
+                <div>
+                  <img
+                    src="./assets/home/slackers/white.svg"
+                    class="h-[12rem]"
+                    alt="white"
+                  />
+                </div>
+              </div>
+              <svg
+                class="z-0 absolute bottom-[-41.3px] left-0 w-full"
+                width="426"
+                height="311"
+                viewBox="0 0 426 311"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M426 340H-1004V183.73C-1004 183.73 -745.066 -46.5917 -499.677 8.51847C-320.792 48.693 -184.198 195.998 76.7699 183.73C267.941 174.743 426 8.51847 426 8.51847V340Z"
+                  fill="#8FB1D1"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+        <!-- {/* Start up section */} -->
+        <div class="w-full flex flex-col items-center pt-12 justify-center">
+          <p class="text-4xl font-georgia font-bold">
+            Startups We
+            <span class="text-[#F6BD0C]"> Hire </span>
+            for
+          </p>
+
+          <div class="flex justify-between items-center my-10">
+            <img
+              class="px-8"
+              src="./assets/company-logo/cradlwise.svg"
+              alt="cradlwise"
+            />
+            <img
+              class="px-8 h-14"
+              src="./assets/company-logo/harmony.svg"
+              alt="harmony.svg"
+            />
+
+            <img
+              class="px-8 h-14"
+              src="./assets/company-logo/nudge.svg"
+              alt="nudge"
+            />
+
+            <img
+              class="px-8 h-14"
+              src="./assets/company-logo//wysa.svg"
+              alt="wysa"
+            />
+
+            <img
+              class="px-8 h-14"
+              src="./assets/company-logo/zynduty.svg"
+              alt="zynduty"
+            />
+          </div>
+        </div>
+        <!-- {/* Community section */} -->
+        <div class="flex flex-col gap-7 items-center bg-[#171717] py-10">
+          <h4 class="text-4xl font-bold font-georgia">
+            Clear our screening get onboarded in the
+            <span class="text-[#F6BD0C]">community</span>
+          </h4>
+          <p class="text-2xl">face the final interview in multiple companies</p>
+          <div class="flex justify-center items-center gap-8">
+            <img class="" src="./assets/cards/card1.svg" alt="card1" />
+            <img src="./assets/cards/card2.svg" alt="card2" />
+            <img src="./assets/cards/card3.svg" alt="card3" />
+          </div>
+        </div>
+
+        <!-- {/*
+        <div class="h-full  bg-[#171717]">
+          <div class="mx-20">
+            <div class="py-10 flex flex-col items-center justify-center">
+              <p class="text-4xl font-bold">
+                Clear our screening get onboarded in the
+                <span class="text-[#F6BD0C]"> community</span>
+              </p>
+              <p class="text-xl mt-5 antialiased">
+                face the final interview in multiple companies
+              </p>
+            </div>
+            <div class="pb-10">
+              <div class="grid grid-cols-3 gap-10">
+                <div class="h-[30rem] flex items-center justify-center">
+                  <div>
+                    <div>
+                      <img src="/assets/home/opportuinity/dl.svg" alt="" />
+                    </div>
+                    <div class="flex  items-center justify-center text-3xl">
+                      <div class="w-[70%] text-center">
+                        <span class="text-center w-full">
+                          Get Job or get feedback
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="h-[30rem] flex items-center justify-center">
+                  <div>
+                    <div>
+                      <img src="/assets/home/opportuinity/pl.svg" alt="" />
+                    </div>
+                    <div class="flex  items-center justify-center text-3xl">
+                      <div class="w-[70%] text-center">
+                        <p class="text-center w-full">
+                          <span class="text-[#F6BD0C]">Speed Hiring</span>
+                          <span> (like speed-dating)</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="
+                relative"
+                >
+                  <div class="absolute">
+                    <div
+                      class="h-[30rem] w-[25rem] flex items-center justify-center"
+                    >
+                      <p class="text-2xl ">Coming Soon</p>
+                    </div>
+                  </div>
+                  <div
+                    class="h-[30rem]  blur-sm flex items-center justify-center
+                 "
+                  >
+                    <div>
+                      <div>
+                        <img src="/assets/home/opportuinity/cl.svg" alt="" />
+                      </div>
+                      <div
+                        class="flex items-center justify-center text-3xl"
+                      >
+                        <p>
+                          <span>Speed</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        */} {/* testimonials */} -->
+        <div class="flex flex-col items-center gap-6 py-16">
+          <div
+            class="w-full flex items-center justify-center font-georgia text-4xl font-bold"
+          >
+            <p class="font-georgia">
+              Hear what our
+              <span class="text-[#F6BD0C]"> candidates </span>
+              have to say
+            </p>
+          </div>
+          <div
+            class="grid grid-cols-2 gap-8 select-text selection:bg-[#F6BD0C]/20"
+          >
+            <div
+              class="w-[450px] flex flex-col gap-7 p-7 border-2 border-tpcCardGray shadow-lg rounded-md"
+            >
+              <div>
+                <p class="text-2xl font-semibold font-georgia">
+                  An Engineer's Journey with The Proven Club
+                </p>
+              </div>
+
+              <p class="text-[#868686]">
+                The Proven Club has been a game-changer for me. The
+                comprehensive tests helped me identify my strengths and areas
+                for improvement.
+              </p>
+
+              <div class="w-full mt-3 flex space-x-2 flex-row items-center">
+                <div>
+                  <svg
+                    width="90"
+                    viewBox="0 0 118 25"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10.9714 3.28257C11.2231 2.50794 12.319 2.50794 12.5707 3.28257L14.225 8.37416C14.3376 8.72058 14.6604 8.95513 15.0247 8.95513L20.3783 8.95513C21.1928 8.95513 21.5314 9.99738 20.8725 10.4761L16.5413 13.6229C16.2467 13.837 16.1233 14.2165 16.2359 14.5629L17.8903 19.6545C18.142 20.4292 17.2554 21.0733 16.5964 20.5946L12.2653 17.4478C11.9706 17.2337 11.5715 17.2337 11.2768 17.4478L6.94568 20.5946C6.28674 21.0733 5.40015 20.4292 5.65184 19.6545L7.3062 14.5629C7.41876 14.2165 7.29545 13.837 7.00076 13.6229L2.6696 10.4761C2.01066 9.99738 2.34931 8.95513 3.1638 8.95513L8.51742 8.95513C8.88167 8.95513 9.20449 8.72058 9.31705 8.37416L10.9714 3.28257Z"
+                      fill="#F6BD0C"
+                    />
+                    <path
+                      d="M34.5134 3.28257C34.7651 2.50794 35.861 2.50794 36.1127 3.28257L37.767 8.37416C37.8796 8.72058 38.2024 8.95513 38.5667 8.95513L43.9203 8.95513C44.7348 8.95513 45.0734 9.99738 44.4145 10.4761L40.0833 13.6229C39.7886 13.837 39.6653 14.2165 39.7779 14.5629L41.4323 19.6545C41.6839 20.4292 40.7973 21.0733 40.1384 20.5946L35.8072 17.4478C35.5126 17.2337 35.1135 17.2337 34.8188 17.4478L30.4877 20.5946C29.8287 21.0733 28.9421 20.4292 29.1938 19.6545L30.8482 14.5629C30.9607 14.2165 30.8374 13.837 30.5428 13.6229L26.2116 10.4761C25.5527 9.99738 25.8913 8.95513 26.7058 8.95513L32.0594 8.95513C32.4237 8.95513 32.7465 8.72058 32.859 8.37416L34.5134 3.28257Z"
+                      fill="#F6BD0C"
+                    />
+                    <path
+                      d="M58.0554 3.28257C58.3071 2.50794 59.403 2.50794 59.6547 3.28257L61.309 8.37416C61.4216 8.72058 61.7444 8.95513 62.1087 8.95513L67.4623 8.95513C68.2768 8.95513 68.6154 9.99738 67.9565 10.4761L63.6253 13.6229C63.3306 13.837 63.2073 14.2165 63.3199 14.5629L64.9742 19.6545C65.2259 20.4292 64.3393 21.0733 63.6804 20.5946L59.3492 17.4478C59.0546 17.2337 58.6555 17.2337 58.3608 17.4478L54.0297 20.5946C53.3707 21.0733 52.4841 20.4292 52.7358 19.6545L54.3902 14.5629C54.5027 14.2165 54.3794 13.837 54.0847 13.6229L49.7536 10.4761C49.0946 9.99738 49.4333 8.95513 50.2478 8.95513L55.6014 8.95513C55.9657 8.95513 56.2885 8.72058 56.401 8.37416L58.0554 3.28257Z"
+                      fill="#F6BD0C"
+                    />
+                    <path
+                      d="M81.5974 3.28257C81.8491 2.50794 82.945 2.50794 83.1967 3.28257L84.851 8.37416C84.9636 8.72058 85.2864 8.95513 85.6507 8.95513L91.0043 8.95513C91.8188 8.95513 92.1574 9.99738 91.4985 10.4761L87.1673 13.6229C86.8726 13.837 86.7493 14.2165 86.8619 14.5629L88.5162 19.6545C88.7679 20.4292 87.8813 21.0733 87.2224 20.5946L82.8912 17.4478C82.5965 17.2337 82.1975 17.2337 81.9028 17.4478L77.5717 20.5946C76.9127 21.0733 76.0261 20.4292 76.2778 19.6545L77.9322 14.5629C78.0447 14.2165 77.9214 13.837 77.6267 13.6229L73.2956 10.4761C72.6366 9.99738 72.9753 8.95513 73.7898 8.95513L79.1434 8.95513C79.5076 8.95513 79.8305 8.72058 79.943 8.37416L81.5974 3.28257Z"
+                      fill="#F6BD0C"
+                    />
+                    <path
+                      d="M105.139 3.28257C105.391 2.50794 106.487 2.50794 106.739 3.28257L108.393 8.37416C108.506 8.72058 108.828 8.95513 109.193 8.95513L114.546 8.95513C115.361 8.95513 115.699 9.99738 115.04 10.4761L110.709 13.6229C110.415 13.837 110.291 14.2165 110.404 14.5629L112.058 19.6545C112.31 20.4292 111.423 21.0733 110.764 20.5946L106.433 17.4478C106.139 17.2337 105.74 17.2337 105.445 17.4478L101.114 20.5946C100.455 21.0733 99.5681 20.4292 99.8198 19.6545L101.474 14.5629C101.587 14.2165 101.463 13.837 101.169 13.6229L96.8376 10.4761C96.1786 9.99738 96.5173 8.95513 97.3318 8.95513L102.685 8.95513C103.05 8.95513 103.372 8.72058 103.485 8.37416L105.139 3.28257Z"
+                      fill="#F6BD0C"
+                    />
+                  </svg>
+                </div>
+                <span class="text-lg font-semibold">
+                  Roxanne, Full Stack Developer
+                </span>
+              </div>
+            </div>
+            <div
+              class="w-[450px] flex flex-col gap-7 p-7 border-2 border-tpcCardGray shadow-lg rounded-md"
+            >
+              <div>
+                <p class="text-2xl font-semibold font-georgia">
+                  "An Engineer's Journey with The Proven Club"
+                </p>
+              </div>
+
+              <p class="text-[#868686]">
+                The Proven Club has been a game-changer for me. The
+                comprehensive tests helped me identify my strengths and areas
+                for improvement.
+              </p>
+
+              <div class="w-full mt-3 flex space-x-2 flex-row items-center">
+                <div>
+                  <svg
+                    width="90"
+                    viewBox="0 0 118 25"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10.9714 3.28257C11.2231 2.50794 12.319 2.50794 12.5707 3.28257L14.225 8.37416C14.3376 8.72058 14.6604 8.95513 15.0247 8.95513L20.3783 8.95513C21.1928 8.95513 21.5314 9.99738 20.8725 10.4761L16.5413 13.6229C16.2467 13.837 16.1233 14.2165 16.2359 14.5629L17.8903 19.6545C18.142 20.4292 17.2554 21.0733 16.5964 20.5946L12.2653 17.4478C11.9706 17.2337 11.5715 17.2337 11.2768 17.4478L6.94568 20.5946C6.28674 21.0733 5.40015 20.4292 5.65184 19.6545L7.3062 14.5629C7.41876 14.2165 7.29545 13.837 7.00076 13.6229L2.6696 10.4761C2.01066 9.99738 2.34931 8.95513 3.1638 8.95513L8.51742 8.95513C8.88167 8.95513 9.20449 8.72058 9.31705 8.37416L10.9714 3.28257Z"
+                      fill="#F6BD0C"
+                    />
+                    <path
+                      d="M34.5134 3.28257C34.7651 2.50794 35.861 2.50794 36.1127 3.28257L37.767 8.37416C37.8796 8.72058 38.2024 8.95513 38.5667 8.95513L43.9203 8.95513C44.7348 8.95513 45.0734 9.99738 44.4145 10.4761L40.0833 13.6229C39.7886 13.837 39.6653 14.2165 39.7779 14.5629L41.4323 19.6545C41.6839 20.4292 40.7973 21.0733 40.1384 20.5946L35.8072 17.4478C35.5126 17.2337 35.1135 17.2337 34.8188 17.4478L30.4877 20.5946C29.8287 21.0733 28.9421 20.4292 29.1938 19.6545L30.8482 14.5629C30.9607 14.2165 30.8374 13.837 30.5428 13.6229L26.2116 10.4761C25.5527 9.99738 25.8913 8.95513 26.7058 8.95513L32.0594 8.95513C32.4237 8.95513 32.7465 8.72058 32.859 8.37416L34.5134 3.28257Z"
+                      fill="#F6BD0C"
+                    />
+                    <path
+                      d="M58.0554 3.28257C58.3071 2.50794 59.403 2.50794 59.6547 3.28257L61.309 8.37416C61.4216 8.72058 61.7444 8.95513 62.1087 8.95513L67.4623 8.95513C68.2768 8.95513 68.6154 9.99738 67.9565 10.4761L63.6253 13.6229C63.3306 13.837 63.2073 14.2165 63.3199 14.5629L64.9742 19.6545C65.2259 20.4292 64.3393 21.0733 63.6804 20.5946L59.3492 17.4478C59.0546 17.2337 58.6555 17.2337 58.3608 17.4478L54.0297 20.5946C53.3707 21.0733 52.4841 20.4292 52.7358 19.6545L54.3902 14.5629C54.5027 14.2165 54.3794 13.837 54.0847 13.6229L49.7536 10.4761C49.0946 9.99738 49.4333 8.95513 50.2478 8.95513L55.6014 8.95513C55.9657 8.95513 56.2885 8.72058 56.401 8.37416L58.0554 3.28257Z"
+                      fill="#F6BD0C"
+                    />
+                    <path
+                      d="M81.5974 3.28257C81.8491 2.50794 82.945 2.50794 83.1967 3.28257L84.851 8.37416C84.9636 8.72058 85.2864 8.95513 85.6507 8.95513L91.0043 8.95513C91.8188 8.95513 92.1574 9.99738 91.4985 10.4761L87.1673 13.6229C86.8726 13.837 86.7493 14.2165 86.8619 14.5629L88.5162 19.6545C88.7679 20.4292 87.8813 21.0733 87.2224 20.5946L82.8912 17.4478C82.5965 17.2337 82.1975 17.2337 81.9028 17.4478L77.5717 20.5946C76.9127 21.0733 76.0261 20.4292 76.2778 19.6545L77.9322 14.5629C78.0447 14.2165 77.9214 13.837 77.6267 13.6229L73.2956 10.4761C72.6366 9.99738 72.9753 8.95513 73.7898 8.95513L79.1434 8.95513C79.5076 8.95513 79.8305 8.72058 79.943 8.37416L81.5974 3.28257Z"
+                      fill="#F6BD0C"
+                    />
+                    <path
+                      d="M105.139 3.28257C105.391 2.50794 106.487 2.50794 106.739 3.28257L108.393 8.37416C108.506 8.72058 108.828 8.95513 109.193 8.95513L114.546 8.95513C115.361 8.95513 115.699 9.99738 115.04 10.4761L110.709 13.6229C110.415 13.837 110.291 14.2165 110.404 14.5629L112.058 19.6545C112.31 20.4292 111.423 21.0733 110.764 20.5946L106.433 17.4478C106.139 17.2337 105.74 17.2337 105.445 17.4478L101.114 20.5946C100.455 21.0733 99.5681 20.4292 99.8198 19.6545L101.474 14.5629C101.587 14.2165 101.463 13.837 101.169 13.6229L96.8376 10.4761C96.1786 9.99738 96.5173 8.95513 97.3318 8.95513L102.685 8.95513C103.05 8.95513 103.372 8.72058 103.485 8.37416L105.139 3.28257Z"
+                      fill="#F6BD0C"
+                    />
+                  </svg>
+                </div>
+                <span class="text-lg font-semibold">
+                  Roxanne, Full Stack Developer
+                </span>
+              </div>
+            </div>
+            <div
+              class="w-[450px] flex flex-col gap-7 p-7 border-2 border-tpcCardGray shadow-lg rounded-md"
+            >
+              <div>
+                <p class="text-2xl font-semibold font-georgia">
+                  "An Engineer's Journey with The Proven Club"
+                </p>
+              </div>
+
+              <p class="text-[#868686]">
+                The Proven Club has been a game-changer for me. The
+                comprehensive tests helped me identify my strengths and areas
+                for improvement.
+              </p>
+
+              <div class="w-full mt-3 flex space-x-2 flex-row items-center">
+                <div>
+                  <svg
+                    width="90"
+                    viewBox="0 0 118 25"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10.9714 3.28257C11.2231 2.50794 12.319 2.50794 12.5707 3.28257L14.225 8.37416C14.3376 8.72058 14.6604 8.95513 15.0247 8.95513L20.3783 8.95513C21.1928 8.95513 21.5314 9.99738 20.8725 10.4761L16.5413 13.6229C16.2467 13.837 16.1233 14.2165 16.2359 14.5629L17.8903 19.6545C18.142 20.4292 17.2554 21.0733 16.5964 20.5946L12.2653 17.4478C11.9706 17.2337 11.5715 17.2337 11.2768 17.4478L6.94568 20.5946C6.28674 21.0733 5.40015 20.4292 5.65184 19.6545L7.3062 14.5629C7.41876 14.2165 7.29545 13.837 7.00076 13.6229L2.6696 10.4761C2.01066 9.99738 2.34931 8.95513 3.1638 8.95513L8.51742 8.95513C8.88167 8.95513 9.20449 8.72058 9.31705 8.37416L10.9714 3.28257Z"
+                      fill="#F6BD0C"
+                    />
+                    <path
+                      d="M34.5134 3.28257C34.7651 2.50794 35.861 2.50794 36.1127 3.28257L37.767 8.37416C37.8796 8.72058 38.2024 8.95513 38.5667 8.95513L43.9203 8.95513C44.7348 8.95513 45.0734 9.99738 44.4145 10.4761L40.0833 13.6229C39.7886 13.837 39.6653 14.2165 39.7779 14.5629L41.4323 19.6545C41.6839 20.4292 40.7973 21.0733 40.1384 20.5946L35.8072 17.4478C35.5126 17.2337 35.1135 17.2337 34.8188 17.4478L30.4877 20.5946C29.8287 21.0733 28.9421 20.4292 29.1938 19.6545L30.8482 14.5629C30.9607 14.2165 30.8374 13.837 30.5428 13.6229L26.2116 10.4761C25.5527 9.99738 25.8913 8.95513 26.7058 8.95513L32.0594 8.95513C32.4237 8.95513 32.7465 8.72058 32.859 8.37416L34.5134 3.28257Z"
+                      fill="#F6BD0C"
+                    />
+                    <path
+                      d="M58.0554 3.28257C58.3071 2.50794 59.403 2.50794 59.6547 3.28257L61.309 8.37416C61.4216 8.72058 61.7444 8.95513 62.1087 8.95513L67.4623 8.95513C68.2768 8.95513 68.6154 9.99738 67.9565 10.4761L63.6253 13.6229C63.3306 13.837 63.2073 14.2165 63.3199 14.5629L64.9742 19.6545C65.2259 20.4292 64.3393 21.0733 63.6804 20.5946L59.3492 17.4478C59.0546 17.2337 58.6555 17.2337 58.3608 17.4478L54.0297 20.5946C53.3707 21.0733 52.4841 20.4292 52.7358 19.6545L54.3902 14.5629C54.5027 14.2165 54.3794 13.837 54.0847 13.6229L49.7536 10.4761C49.0946 9.99738 49.4333 8.95513 50.2478 8.95513L55.6014 8.95513C55.9657 8.95513 56.2885 8.72058 56.401 8.37416L58.0554 3.28257Z"
+                      fill="#F6BD0C"
+                    />
+                    <path
+                      d="M81.5974 3.28257C81.8491 2.50794 82.945 2.50794 83.1967 3.28257L84.851 8.37416C84.9636 8.72058 85.2864 8.95513 85.6507 8.95513L91.0043 8.95513C91.8188 8.95513 92.1574 9.99738 91.4985 10.4761L87.1673 13.6229C86.8726 13.837 86.7493 14.2165 86.8619 14.5629L88.5162 19.6545C88.7679 20.4292 87.8813 21.0733 87.2224 20.5946L82.8912 17.4478C82.5965 17.2337 82.1975 17.2337 81.9028 17.4478L77.5717 20.5946C76.9127 21.0733 76.0261 20.4292 76.2778 19.6545L77.9322 14.5629C78.0447 14.2165 77.9214 13.837 77.6267 13.6229L73.2956 10.4761C72.6366 9.99738 72.9753 8.95513 73.7898 8.95513L79.1434 8.95513C79.5076 8.95513 79.8305 8.72058 79.943 8.37416L81.5974 3.28257Z"
+                      fill="#F6BD0C"
+                    />
+                    <path
+                      d="M105.139 3.28257C105.391 2.50794 106.487 2.50794 106.739 3.28257L108.393 8.37416C108.506 8.72058 108.828 8.95513 109.193 8.95513L114.546 8.95513C115.361 8.95513 115.699 9.99738 115.04 10.4761L110.709 13.6229C110.415 13.837 110.291 14.2165 110.404 14.5629L112.058 19.6545C112.31 20.4292 111.423 21.0733 110.764 20.5946L106.433 17.4478C106.139 17.2337 105.74 17.2337 105.445 17.4478L101.114 20.5946C100.455 21.0733 99.5681 20.4292 99.8198 19.6545L101.474 14.5629C101.587 14.2165 101.463 13.837 101.169 13.6229L96.8376 10.4761C96.1786 9.99738 96.5173 8.95513 97.3318 8.95513L102.685 8.95513C103.05 8.95513 103.372 8.72058 103.485 8.37416L105.139 3.28257Z"
+                      fill="#F6BD0C"
+                    />
+                  </svg>
+                </div>
+                <span class="text-lg font-semibold">
+                  Roxanne, Full Stack Developer
+                </span>
+              </div>
+            </div>
+            <div
+              class="w-[450px] flex flex-col gap-7 p-7 border-2 border-tpcCardGray shadow-lg rounded-md"
+            >
+              <div>
+                <p class="text-2xl font-semibold font-georgia">
+                  "An Engineer's Journey with The Proven Club"
+                </p>
+              </div>
+
+              <p class="text-[#868686]">
+                The Proven Club has been a game-changer for me. The
+                comprehensive tests helped me identify my strengths and areas
+                for improvement.
+              </p>
+
+              <div class="w-full mt-3 flex space-x-2 flex-row items-center">
+                <div>
+                  <svg
+                    width="90"
+                    viewBox="0 0 118 25"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M10.9714 3.28257C11.2231 2.50794 12.319 2.50794 12.5707 3.28257L14.225 8.37416C14.3376 8.72058 14.6604 8.95513 15.0247 8.95513L20.3783 8.95513C21.1928 8.95513 21.5314 9.99738 20.8725 10.4761L16.5413 13.6229C16.2467 13.837 16.1233 14.2165 16.2359 14.5629L17.8903 19.6545C18.142 20.4292 17.2554 21.0733 16.5964 20.5946L12.2653 17.4478C11.9706 17.2337 11.5715 17.2337 11.2768 17.4478L6.94568 20.5946C6.28674 21.0733 5.40015 20.4292 5.65184 19.6545L7.3062 14.5629C7.41876 14.2165 7.29545 13.837 7.00076 13.6229L2.6696 10.4761C2.01066 9.99738 2.34931 8.95513 3.1638 8.95513L8.51742 8.95513C8.88167 8.95513 9.20449 8.72058 9.31705 8.37416L10.9714 3.28257Z"
+                      fill="#F6BD0C"
+                    />
+                    <path
+                      d="M34.5134 3.28257C34.7651 2.50794 35.861 2.50794 36.1127 3.28257L37.767 8.37416C37.8796 8.72058 38.2024 8.95513 38.5667 8.95513L43.9203 8.95513C44.7348 8.95513 45.0734 9.99738 44.4145 10.4761L40.0833 13.6229C39.7886 13.837 39.6653 14.2165 39.7779 14.5629L41.4323 19.6545C41.6839 20.4292 40.7973 21.0733 40.1384 20.5946L35.8072 17.4478C35.5126 17.2337 35.1135 17.2337 34.8188 17.4478L30.4877 20.5946C29.8287 21.0733 28.9421 20.4292 29.1938 19.6545L30.8482 14.5629C30.9607 14.2165 30.8374 13.837 30.5428 13.6229L26.2116 10.4761C25.5527 9.99738 25.8913 8.95513 26.7058 8.95513L32.0594 8.95513C32.4237 8.95513 32.7465 8.72058 32.859 8.37416L34.5134 3.28257Z"
+                      fill="#F6BD0C"
+                    />
+                    <path
+                      d="M58.0554 3.28257C58.3071 2.50794 59.403 2.50794 59.6547 3.28257L61.309 8.37416C61.4216 8.72058 61.7444 8.95513 62.1087 8.95513L67.4623 8.95513C68.2768 8.95513 68.6154 9.99738 67.9565 10.4761L63.6253 13.6229C63.3306 13.837 63.2073 14.2165 63.3199 14.5629L64.9742 19.6545C65.2259 20.4292 64.3393 21.0733 63.6804 20.5946L59.3492 17.4478C59.0546 17.2337 58.6555 17.2337 58.3608 17.4478L54.0297 20.5946C53.3707 21.0733 52.4841 20.4292 52.7358 19.6545L54.3902 14.5629C54.5027 14.2165 54.3794 13.837 54.0847 13.6229L49.7536 10.4761C49.0946 9.99738 49.4333 8.95513 50.2478 8.95513L55.6014 8.95513C55.9657 8.95513 56.2885 8.72058 56.401 8.37416L58.0554 3.28257Z"
+                      fill="#F6BD0C"
+                    />
+                    <path
+                      d="M81.5974 3.28257C81.8491 2.50794 82.945 2.50794 83.1967 3.28257L84.851 8.37416C84.9636 8.72058 85.2864 8.95513 85.6507 8.95513L91.0043 8.95513C91.8188 8.95513 92.1574 9.99738 91.4985 10.4761L87.1673 13.6229C86.8726 13.837 86.7493 14.2165 86.8619 14.5629L88.5162 19.6545C88.7679 20.4292 87.8813 21.0733 87.2224 20.5946L82.8912 17.4478C82.5965 17.2337 82.1975 17.2337 81.9028 17.4478L77.5717 20.5946C76.9127 21.0733 76.0261 20.4292 76.2778 19.6545L77.9322 14.5629C78.0447 14.2165 77.9214 13.837 77.6267 13.6229L73.2956 10.4761C72.6366 9.99738 72.9753 8.95513 73.7898 8.95513L79.1434 8.95513C79.5076 8.95513 79.8305 8.72058 79.943 8.37416L81.5974 3.28257Z"
+                      fill="#F6BD0C"
+                    />
+                    <path
+                      d="M105.139 3.28257C105.391 2.50794 106.487 2.50794 106.739 3.28257L108.393 8.37416C108.506 8.72058 108.828 8.95513 109.193 8.95513L114.546 8.95513C115.361 8.95513 115.699 9.99738 115.04 10.4761L110.709 13.6229C110.415 13.837 110.291 14.2165 110.404 14.5629L112.058 19.6545C112.31 20.4292 111.423 21.0733 110.764 20.5946L106.433 17.4478C106.139 17.2337 105.74 17.2337 105.445 17.4478L101.114 20.5946C100.455 21.0733 99.5681 20.4292 99.8198 19.6545L101.474 14.5629C101.587 14.2165 101.463 13.837 101.169 13.6229L96.8376 10.4761C96.1786 9.99738 96.5173 8.95513 97.3318 8.95513L102.685 8.95513C103.05 8.95513 103.372 8.72058 103.485 8.37416L105.139 3.28257Z"
+                      fill="#F6BD0C"
+                    />
+                  </svg>
+                </div>
+                <span class="text-lg font-semibold">
+                  Roxanne, Full Stack Developer
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer
+        class="flex flex-col gap-10 px-20 py-10 border-t border-[#F6BD0C] select-none"
+      >
+        <div class="grid grid-cols-4 gap-10">
+          <div class="flex flex-col gap-9">
+            <div>
+              <img src="./assets/logo/logo.svg" alt="TPC" />
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="flex flex-row items-center gap-6">
+              <img src="./assets/icons/twitter.svg" alt="twitter" />
+              <img src="./assets/icons/facebook.svg" alt="facebook" />
+              <img src="./assets/icons/insta.svg" alt="instagram" />
+              <img src="./assets/icons/gitHub.svg" alt="gitHub" />
+            </div>
+          </div>
+          <ul class="space-y-6 font-light">
+            <li class="text-[#F6BD0C] font-medium">Company</li>
+            <li>About</li>
+            <li>Feature</li>
+            <li>Work</li>
+            <li>Career</li>
+          </ul>
+          <ul class="space-y-6 font-light">
+            <li class="text-[#F6BD0C] font-medium">Resources</li>
+            <li>Guide</li>
+            <li>Development Tutorial</li>
+            <li>Why Us?</li>
+            <li>Youtube Playlist</li>
+          </ul>
+          <div class="flex flex-col gap-4">
+            <p class="text-[#F6BD0C]">Newsletter</p>
+
+            <div
+              class="flex flex-row mt-4 p-3 space-x-2 rounded-md border-solid border-2"
+            >
+              <Mail />
+              <input
+                placeholder="Enter your email address"
+                class="outline-none bg-transparent focus:outline-none"
+              />
+            </div>
+            <button class="bg-[#F6BD0C] py-3 px-5 w-full rounded-md text-black">
+              Subscribe Now
+            </button>
+          </div>
+        </div>
+        <div class="w-full flex justify-between p-5 pt-8 border-t">
+          <ul class="flex gap-10 font-light">
+            <li>About us</li>
+            <li>Contact</li>
+            <li>Privacy Policy</li>
+            <li>Sitemap</li>
+            <li>Terms of use</li>
+          </ul>
+          <div class="flex justify-end">
+            <div>&copy; 2024, All Rights Reserved</div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
